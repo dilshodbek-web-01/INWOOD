@@ -1,0 +1,464 @@
+.join {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+
+  &__img {
+    background-image: url(../../images/joinBgi.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: center;
+    width: 50%;
+    height: 600px;
+  }
+
+  &__right {
+    background: #e0f6f1;
+    width: 50%;
+    height: 600px;
+    padding: 50px 0px 83.5px 145px;
+
+    &-title {
+      font-family: "Playfair Display";
+      font-weight: 400;
+      font-size: 64px;
+      line-height: 85px;
+      letter-spacing: 0.05em;
+      color: #07484a;
+      margin-bottom: 25px;
+    }
+
+    &-text {
+      font-family: "Roboto";
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      color: #07484a;
+    }
+
+    &-input {
+      font-family: "Roboto";
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      color: #c4c4c4;
+      background-color: transparent;
+      outline: none;
+      border: none;
+      display: block;
+      margin: 40px 0 50px 0;
+    }
+
+    &-btn {
+      font-family: "Roboto";
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      color: #fdfbf8;
+      background: #70908b;
+      border-radius: 6px;
+      border: none;
+      padding: 20px 24px;
+      width: 250px;
+      height: 68px;
+      &:hover {
+        background: #9ac9c2;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .join__right {
+    padding: 50px 0px 83.5px 130px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .join__right {
+    padding: 50px 0px 83.5px 100px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .join__right {
+    padding: 50px 0px 83.5px 60px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .join__right {
+    padding: 50px 0px 83.5px 40px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .join__right {
+    padding: 20px 0px 83.5px 20px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .join {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__img {
+      background-image: url(../../images/joinBgi.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: center;
+      width: 50%;
+      height: 600px;
+    }
+
+    &__right {
+      background: #e0f6f1;
+      width: 50%;
+      height: 600px;
+      padding: 40px 0px 83.5px 30px;
+
+      &-title {
+        font-family: "Playfair Display";
+        font-weight: 400;
+        font-size: 55px;
+        line-height: 75px;
+        letter-spacing: 0.05em;
+        color: #07484a;
+        margin-bottom: 25px;
+      }
+
+      &-text {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        color: #07484a;
+      }
+
+      &-input {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #c4c4c4;
+        background-color: transparent;
+        outline: none;
+        border: none;
+        display: block;
+        margin: 40px 0 50px 0;
+      }
+
+      &-btn {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #fdfbf8;
+        background: #70908b;
+        border-radius: 6px;
+        border: none;
+        padding: 20px 24px;
+        width: 250px;
+        height: 68px;
+        &:hover {
+          background: #9ac9c2;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .join {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__img {
+      background-image: url(../../images/joinBgi.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: center;
+      width: 50%;
+      height: 600px;
+    }
+
+    &__right {
+      background: #e0f6f1;
+      width: 50%;
+      height: 600px;
+      padding: 50px 0px 83.5px 50px;
+
+      &-title {
+        font-family: "Playfair Display";
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 62px;
+        letter-spacing: 0.05em;
+        color: #07484a;
+        margin-bottom: 25px;
+      }
+
+      &-text {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #07484a;
+      }
+
+      &-input {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #c4c4c4;
+        background-color: transparent;
+        border-bottom: 1.5px solid black;
+        display: block;
+        margin: 40px 0 50px 0;
+        padding: 10px;
+      }
+
+      &-btn {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #fdfbf8;
+        background: #70908b;
+        border-radius: 6px;
+        border: none;
+        padding: 20px 24px;
+        width: 250px;
+        height: 68px;
+        &:hover {
+          background: #9ac9c2;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .join {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__img {
+      background-image: url(../../images/joinBgi.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: center;
+      width: 50%;
+      height: 600px;
+    }
+
+    &__right {
+      background: #e0f6f1;
+      width: 50%;
+      height: 600px;
+      padding: 60px 0px 83.5px 30px;
+
+      &-title {
+        font-family: "Playfair Display";
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 62px;
+        letter-spacing: 0.05em;
+        color: #07484a;
+        margin-bottom: 25px;
+      }
+
+      &-text {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #07484a;
+      }
+
+      &-input {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #c4c4c4;
+        background-color: transparent;
+        border-bottom: 1.5px solid black;
+        display: block;
+        margin: 40px 0 50px 0;
+        padding: 10px;
+      }
+
+      &-btn {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #fdfbf8;
+        background: #70908b;
+        border-radius: 6px;
+        border: none;
+        padding: 20px 24px;
+        width: 250px;
+        height: 68px;
+        &:hover {
+          background: #9ac9c2;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .join {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+
+    &__img {
+      background-image: url(../../images/joinBgi.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: center;
+      width: 100%;
+      height: 600px;
+    }
+
+    &__right {
+      background: #e0f6f1;
+      width: 100%;
+      height: 600px;
+      padding: 60px 0px 83.5px 30px;
+
+      &-title {
+        font-family: "Playfair Display";
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 62px;
+        letter-spacing: 0.05em;
+        color: #07484a;
+        margin-bottom: 25px;
+      }
+
+      &-text {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #07484a;
+      }
+
+      &-input {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #c4c4c4;
+        background-color: transparent;
+        border-bottom: 1.5px solid black;
+        display: block;
+        margin: 40px 0 50px 0;
+        padding: 10px;
+        width: 96%;
+      }
+
+      &-btn {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #fdfbf8;
+        background: #70908b;
+        border-radius: 6px;
+        border: none;
+        padding: 20px 24px;
+        width: 250px;
+        height: 68px;
+        &:hover {
+          background: #9ac9c2;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .join {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+
+    &__img {
+      background-image: url(../../images/joinBgi.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: center;
+      width: 100%;
+      height: 600px;
+    }
+
+    &__right {
+      background: #e0f6f1;
+      width: 100%;
+      height: 600px;
+      padding: 60px 0px 83.5px 10px;
+      text-align: center;
+
+      &-title {
+        font-family: "Playfair Display";
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 52px;
+        letter-spacing: 0.05em;
+        color: #07484a;
+        margin-bottom: 25px;
+      }
+
+      &-text {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #07484a;
+      }
+
+      &-input {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #c4c4c4;
+        background-color: transparent;
+        border-bottom: 1.5px solid black;
+        display: block;
+        margin: 40px 0 50px 0;
+        padding: 10px;
+        width: 96%;
+        text-align: center;
+      }
+
+      &-btn {
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #fdfbf8;
+        background: #70908b;
+        border-radius: 6px;
+        border: none;
+        padding: 20px 24px;
+        width: 250px;
+        height: 68px;
+        &:hover {
+          background: #9ac9c2;
+        }
+      }
+    }
+  }
+}

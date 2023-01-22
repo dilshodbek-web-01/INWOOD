@@ -1,0 +1,337 @@
+.benefits-bgc {
+  background: #e0eff6;
+  margin-top: 100px;
+
+  .benefits {
+    padding-bottom: 50px;
+
+    &-title {
+      font-family: "Playfair Display";
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 85px;
+      color: #07484a;
+      text-align: center;
+      padding-bottom: 60px;
+    }
+
+    &__list {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 0;
+      flex-wrap: wrap;
+
+      &--item {
+        list-style-type: none;
+        text-align: center;
+        max-width: 289px;
+
+        &-icon {
+          width: 108px;
+          height: 108px;
+        }
+
+        &-title {
+          font-family: "Playfair Display";
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 48px;
+          color: #07484a;
+          margin: 32px 0;
+        }
+
+        &-text {
+          font-family: "Open Sans";
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 33px;
+          text-align: center;
+          color: #07484a;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .benefits-bgc {
+    background: #e0eff6;
+
+    .benefits {
+      padding-bottom: 50px;
+
+      &-title {
+        font-family: "Playfair Display";
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 62px;
+        color: #07484a;
+        text-align: center;
+        padding-bottom: 50px;
+      }
+
+      &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0;
+
+        &--item {
+          list-style-type: none;
+          text-align: center;
+          max-width: 289px;
+
+          &-icon {
+            width: 108px;
+            height: 108px;
+          }
+
+          &-title {
+            font-family: "Playfair Display";
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+            color: #07484a;
+            margin: 32px 0;
+          }
+
+          &-text {
+            font-family: "Open Sans";
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 33px;
+            text-align: center;
+            color: #07484a;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  .benefits-bgc {
+    background: #e0eff6;
+
+    .benefits {
+      padding-bottom: 50px;
+
+      &-title {
+        font-family: "Playfair Display";
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 62px;
+        color: #07484a;
+        text-align: center;
+        padding-bottom: 40px;
+      }
+
+      &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0;
+
+        &--item {
+          list-style-type: none;
+          text-align: center;
+          max-width: 260px;
+
+          &-icon {
+            width: 108px;
+            height: 108px;
+          }
+
+          &-title {
+            font-family: "Playfair Display";
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+            color: #07484a;
+            margin: 32px 0;
+          }
+
+          &-text {
+            font-family: "Open Sans";
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 33px;
+            text-align: center;
+            color: #07484a;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .benefits-bgc {
+    background: #e0eff6;
+
+    .benefits {
+      padding-bottom: 40px;
+
+      &-title {
+        font-family: "Playfair Display";
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 62px;
+        color: #07484a;
+        text-align: center;
+        padding-bottom: 50px;
+      }
+
+      &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0;
+
+        &--item {
+          list-style-type: none;
+          text-align: center;
+          max-width: 242px;
+
+          &-icon {
+            width: 108px;
+            height: 108px;
+          }
+
+          &-title {
+            font-family: "Playfair Display";
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+            color: #07484a;
+            margin: 32px 0;
+          }
+
+          &-text {
+            font-family: "Open Sans";
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+            text-align: center;
+            color: #07484a;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 696px) {
+  .benefits-bgc {
+    background: #e0eff6;
+
+    .benefits {
+      padding-bottom: 40px;
+
+      &-title {
+        font-family: "Playfair Display";
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 62px;
+        color: #07484a;
+        text-align: center;
+        padding-bottom: 50px;
+      }
+
+      &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0;
+
+        &--item {
+          list-style-type: none;
+          text-align: center;
+          max-width: 242px;
+          margin-bottom: 40px;
+
+          &-icon {
+            width: 108px;
+            height: 108px;
+          }
+
+          &-title {
+            font-family: "Playfair Display";
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+            color: #07484a;
+            margin: 32px 0;
+          }
+
+          &-text {
+            font-family: "Open Sans";
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 23px;
+            text-align: center;
+            color: #07484a;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+    .benefits-bgc {
+      background: #e0eff6;
+  
+      .benefits {
+        padding-bottom: 30px;
+  
+        &-title {
+          font-family: "Playfair Display";
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 42px;
+          color: #07484a;
+          text-align: center;
+          padding-bottom: 50px;
+        }
+  
+        &__list {
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          padding: 0;
+  
+          &--item {
+            list-style-type: none;
+            text-align: center;
+            max-width: 242px;
+            margin-bottom: 40px;
+  
+            &-icon {
+              width: 108px;
+              height: 108px;
+            }
+  
+            &-title {
+              font-family: "Playfair Display";
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 36px;
+              color: #07484a;
+              margin: 32px 0;
+            }
+  
+            &-text {
+              font-family: "Open Sans";
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 23px;
+              text-align: center;
+              color: #07484a;
+            }
+          }
+        }
+      }
+    }
+  }

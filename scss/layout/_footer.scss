@@ -1,0 +1,497 @@
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 10px;
+
+  &__logos {
+    margin-top: 100px;
+    &--list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      list-style-type: none;
+      padding: 0;
+
+      &--item {
+        width: 63px;
+        &--link {
+          &-icon {
+            width: 30px;
+            &:hover {
+              color: blue;
+            }
+          }
+        }
+      }
+    }
+
+    &-address {
+      font-size: 20px;
+      font-weight: 900;
+    }
+
+    &-tel {
+      font-family: "Open Sans";
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      color: #07484a;
+      text-decoration: none;
+    }
+
+    &-text {
+      font-family: "Open Sans";
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      color: #07484a;
+    }
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90% !important;
+    padding: 0;
+    margin-top: 80px;
+    margin-left: 80px;
+
+    &--item {
+      list-style-type: none;
+
+      &-title {
+        font-family: "Open Sans";
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: #07484a;
+      }
+
+      &-link {
+        font-family: "Open Sans";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #07484a;
+        display: block;
+        text-decoration: none;
+        &:hover {
+          color: #70908b;
+        }
+      }
+    }
+  }
+  &-down {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #07484a;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+
+    &__logos {
+      margin-top: 100px;
+      &--list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        padding: 0;
+
+        &--item {
+          width: 63px;
+          &--link {
+            &-icon {
+              width: 30px;
+              &:hover {
+                color: blue;
+              }
+            }
+          }
+        }
+      }
+
+      &-address {
+        font-size: 20px;
+        font-weight: 900;
+      }
+
+      &-tel {
+        font-family: "Open Sans";
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: #07484a;
+        text-decoration: none;
+      }
+
+      &-text {
+        font-family: "Open Sans";
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: #07484a;
+      }
+    }
+
+    &__list {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 90% !important;
+      padding: 0;
+      margin-top: 80px;
+      margin-left: 0px;
+
+      &--item {
+        list-style-type: none;
+
+        &-title {
+          font-family: "Open Sans";
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 25px;
+          color: #07484a;
+        }
+
+        &-link {
+          font-family: "Open Sans";
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          color: #07484a;
+          display: block;
+          text-decoration: none;
+          &:hover {
+            color: #70908b;
+          }
+        }
+      }
+    }
+    &-down {
+      font-family: "Open Sans";
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      color: #07484a;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    display: block;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+
+    &__logos {
+      margin-top: 100px;
+      &--list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        width: 43%;
+        padding: 0;
+
+        &--item {
+          width: 63px;
+          &--link {
+            &-icon {
+              width: 30px;
+              &:hover {
+                color: blue;
+              }
+            }
+          }
+        }
+      }
+
+      &-address {
+        font-size: 20px;
+        font-weight: 900;
+      }
+
+      &-tel {
+        font-family: "Open Sans";
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: #07484a;
+        text-decoration: none;
+      }
+
+      &-text {
+        font-family: "Open Sans";
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: #07484a;
+      }
+    }
+
+    &__list {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 90% !important;
+      padding: 0;
+      margin-top: 70px;
+      margin-left: 0px;
+
+      &--item {
+        list-style-type: none;
+        width: 50%;
+        margin-bottom: 40px;
+
+        &-title {
+          font-family: "Open Sans";
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 25px;
+          color: #07484a;
+        }
+
+        &-link {
+          font-family: "Open Sans";
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          color: #07484a;
+          display: block;
+          text-decoration: none;
+          &:hover {
+            color: #70908b;
+          }
+        }
+      }
+    }
+    &-down {
+      font-family: "Open Sans";
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      color: #07484a;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .footer {
+    display: block;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+
+    &__logos {
+      margin-top: 100px;
+      &--list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        width: 60%;
+        padding: 0;
+
+        &--item {
+          width: 63px;
+          &--link {
+            &-icon {
+              width: 30px;
+              &:hover {
+                color: blue;
+              }
+            }
+          }
+        }
+      }
+
+      &-address {
+        font-size: 20px;
+        font-weight: 900;
+      }
+
+      &-tel {
+        font-family: "Open Sans";
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: #07484a;
+        text-decoration: none;
+      }
+
+      &-text {
+        font-family: "Open Sans";
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: #07484a;
+      }
+    }
+
+    &__list {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 90% !important;
+      padding: 0;
+      margin-top: 70px;
+      margin-left: 0px;
+
+      &--item {
+        list-style-type: none;
+        width: 50%;
+        margin-bottom: 40px;
+
+        &-title {
+          font-family: "Open Sans";
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 25px;
+          color: #07484a;
+        }
+
+        &-link {
+          font-family: "Open Sans";
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          color: #07484a;
+          display: block;
+          text-decoration: none;
+          &:hover {
+            color: #70908b;
+          }
+        }
+      }
+    }
+    &-down {
+      font-family: "Open Sans";
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      color: #07484a;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .footer {
+    display: block;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+
+    &__logos {
+      margin-top: 100px;
+      &--list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        width: 100%;
+        padding: 0;
+
+        &--item {
+          width: 63px;
+          &--link {
+            &-icon {
+              width: 30px;
+              &:hover {
+                color: blue;
+              }
+            }
+          }
+        }
+      }
+
+      &-address {
+        font-size: 20px;
+        font-weight: 900;
+      }
+
+      &-tel {
+        font-family: "Open Sans";
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: #07484a;
+        text-decoration: none;
+      }
+
+      &-text {
+        font-family: "Open Sans";
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: #07484a;
+      }
+    }
+
+    &__list {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 90% !important;
+      padding: 0;
+      margin-top: 70px;
+      margin-left: 0px;
+
+      &--item {
+        list-style-type: none;
+        width: 50%;
+        margin-bottom: 40px;
+
+        &-title {
+          font-family: "Open Sans";
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 25px;
+          color: #07484a;
+        }
+
+        &-link {
+          font-family: "Open Sans";
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 25px;
+          color: #07484a;
+          display: block;
+          text-decoration: none;
+          &:hover {
+            color: #70908b;
+          }
+        }
+      }
+    }
+    &-down {
+      font-family: "Open Sans";
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      color: #07484a;
+      text-align: center;
+    }
+  }
+}

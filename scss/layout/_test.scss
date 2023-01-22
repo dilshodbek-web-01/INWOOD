@@ -1,0 +1,336 @@
+.test {
+  margin-top: 100px;
+  &-title {
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 85px;
+    color: #07484a;
+    text-align: center;
+    margin-bottom: -10px;
+  }
+  &-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #07484a;
+    text-align: center;
+  }
+
+  &__wrapper {
+    display: flex;
+    &-img {
+      width: 421px;
+    }
+
+    &--content {
+      padding: 90px 0 20px 97px;
+      &-text {
+        font-family: "Open Sans";
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 49px;
+        color: #07484a;
+        max-width: 864px;
+      }
+
+      &-name {
+        font-family: "Roboto";
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: #07484a;
+        margin-bottom: -20px;
+      }
+
+      &-nameText {
+        font-family: "Roboto";
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        color: #07484a;
+      }
+    }
+    &--icons {
+      margin-top: 210px;
+
+      &-Uparrow {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .test {
+    margin-top: 100px;
+    &-title {
+      font-family: "Playfair Display";
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 85px;
+      color: #07484a;
+      text-align: center;
+      margin-bottom: -10px;
+    }
+    &-text {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 42px;
+      color: #07484a;
+      text-align: center;
+    }
+
+    &__wrapper {
+      display: flex;
+      &-img {
+        width: 421px;
+      }
+
+      &--content {
+        padding: 45px 0 20px 51px;
+        &-text {
+          font-family: "Open Sans";
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 23px;
+          color: #07484a;
+          max-width: 864px;
+        }
+
+        &-name {
+          font-family: "Roboto";
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          color: #07484a;
+          margin-bottom: -20px;
+        }
+
+        &-nameText {
+          font-family: "Roboto";
+          font-weight: 300;
+          font-size: 24px;
+          line-height: 28px;
+          color: #07484a;
+        }
+      }
+      &--icons {
+        margin-top: 210px;
+        display: none;
+
+        &-Uparrow {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .test {
+    margin-top: 100px;
+    &-title {
+      font-family: "Playfair Display";
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 85px;
+      color: #07484a;
+      text-align: center;
+      margin-bottom: -10px;
+    }
+    &-text {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 42px;
+      color: #07484a;
+      text-align: center;
+    }
+
+    &__wrapper {
+      display: flex;
+      &-img {
+        width: 421px;
+      }
+
+      &--content {
+        padding: 45px 0 20px 32px;
+        &-text {
+          font-family: "Open Sans";
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 23px;
+          color: #07484a;
+          max-width: 864px;
+        }
+
+        &-name {
+          font-family: "Roboto";
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          color: #07484a;
+          margin-bottom: -20px;
+        }
+
+        &-nameText {
+          font-family: "Roboto";
+          font-weight: 300;
+          font-size: 24px;
+          line-height: 28px;
+          color: #07484a;
+        }
+      }
+      &--icons {
+        margin-top: 210px;
+        display: none;
+
+        &-Uparrow {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .test {
+    margin-top: 100px;
+    &-title {
+      font-family: "Playfair Display";
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 62px;
+      color: #07484a;
+      text-align: center;
+      margin-bottom: -10px;
+    }
+    &-text {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 36px;
+      color: #07484a;
+      text-align: center;
+    }
+
+    &__wrapper {
+      display: block;
+      &-img {
+        width: 421px;
+      }
+
+      &--content {
+        padding: 45px 0 20px 32px;
+        &-text {
+          font-family: "Open Sans";
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 23px;
+          color: #07484a;
+          max-width: 864px;
+        }
+
+        &-name {
+          font-family: "Roboto";
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          color: #07484a;
+          margin-bottom: -20px;
+        }
+
+        &-nameText {
+          font-family: "Roboto";
+          font-weight: 300;
+          font-size: 24px;
+          line-height: 28px;
+          color: #07484a;
+        }
+      }
+      &--icons {
+        margin-top: 210px;
+        display: none;
+
+        &-Uparrow {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .test {
+    margin-top: 100px;
+    &-title {
+      font-family: "Playfair Display";
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 52px;
+      color: #07484a;
+      text-align: center;
+      margin-bottom: -10px;
+    }
+    &-text {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 23px;
+      color: #07484a;
+      text-align: center;
+    }
+
+    &__wrapper {
+      display: block;
+      &-img {
+        width: 421px;
+      }
+
+      &--content {
+        padding: 45px 0 20px 32px;
+        &-text {
+          font-family: "Open Sans";
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 23px;
+          color: #07484a;
+          max-width: 864px;
+        }
+
+        &-name {
+          font-family: "Roboto";
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28px;
+          color: #07484a;
+          margin-bottom: -20px;
+        }
+
+        &-nameText {
+          font-family: "Roboto";
+          font-weight: 300;
+          font-size: 24px;
+          line-height: 28px;
+          color: #07484a;
+        }
+      }
+      &--icons {
+        margin-top: 210px;
+        display: none;
+
+        &-Uparrow {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
