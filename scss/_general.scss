@@ -2,19 +2,13 @@
 *::after,
 *::before {
   box-sizing: border-box;
-}
-
-html {
   margin: 0;
   padding: 0;
 }
 
-body {
-  all: inherit;
-  overflow-x: hidden;
-}
-
-header, main, footer {
+header,
+main,
+footer {
   width: 100%;
   height: auto;
 }
