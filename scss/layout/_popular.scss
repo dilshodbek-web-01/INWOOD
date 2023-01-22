@@ -1,0 +1,124 @@
+.popular {
+  &__div {
+    background-image: url(../../images/Lstul.png);
+    background-repeat: no-repeat;
+    min-height: 970px;
+
+    &_icons {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      justify-content: end;
+    }
+
+    &_btn {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px 20px;
+      gap: 18px;
+      width: 265px;
+      height: 73px;
+      background: #70908b;
+      border-radius: 10px;
+      border: 2px solid #70908b;
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 25px;
+      color: #ffffff;
+    }
+
+    &_title {
+      font-family: 'Playfair Display';
+      text-align: center;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 85px;
+      color: #07484a;
+      padding: 45px 0;
+    }
+
+    &_ul {
+      display: flex;
+      gap: 30px;
+      width: 1817px;
+      padding-left: 200px;
+      &--list {
+        width: 430.75px;
+        border-radius: 16px;
+        padding: 60px 40px;
+        background: #caf3e5;
+
+        &-title {
+          padding-top: 40px;
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 36px;
+          color: #70908b;
+        }
+
+        &-text {
+          font-family: 'Open Sans';
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 25px;
+          color: #70908b;
+        }
+      }
+    }
+  }
+}
+.scrol {
+  overflow-x: auto;
+}
+
+@media only screen and (max-width: 576px) {
+  .popular__div {
+    background-image: url(../../images/Lstuim.png);
+    background-position: 0px 190px;
+    background-repeat: no-repeat;
+  }
+  .popular__div_ul--list {
+    width: 237px;
+    border-radius: 16px;
+    padding: 20px;
+    background: #caf3e5;
+  }
+
+  .popular__div_ul {
+    display: flex;
+    gap: 30px;
+    width: 1240px;
+    padding-left: 200px;
+  }
+}
+
+@media only screen and (max-width: 476px) {
+  .popular__div {
+    background-image: url(../../images/Lstuim.png);
+    background-position: 0px 274px;
+    background-repeat: no-repeat;
+  }
+  .popular__div_ul--list {
+    width: 237px;
+    border-radius: 16px;
+    padding: 20px;
+    background: #caf3e5;
+  }
+
+  .popular__div_ul {
+    display: flex;
+    gap: 30px;
+    width: 1038px;
+    padding-left: 27px;
+  }
+
+  .popular__div_title {
+    font-size: 28px;
+  }
+}
