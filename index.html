@@ -1,18 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- main css -->
-    <link rel="stylesheet" href="./css/style.min.css">
-    <title>competition</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Competition</title>
 </head>
+
 <body>
-
-
-<script src="./scripts/utils.js"></script>
-<script src="./scripts/script.js"></script>
+    <header>
+        <div class="container header">
+            <div class="header__logo">
+                <a href="./index.html">
+                    <img src="./image/logo.svg" alt="">
+                </a>
+            </div>
+            <nav class="header-navbar">
+                <ul class="header-navbar__item">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <div class="menu">
+                    <button id="OpenMenu"><img src="./image/menu.svg" alt=""></button>
+                </div>
+            </nav>
+            <div class="header__buttons">
+                <button><img src="./image/search.svg" alt=""></button>
+                <button><img src="./image/card.svg" alt=""></button>
+                <button id="account"><img src="./image/account.svg" alt=""></button>
+            </div>
+            <div class="header-modal-login">
+                <div class="header-modal-login__nav">
+                    <p>Login</p>
+                    <button id="closeMenu">+</button>
+                </div>
+                <form method="post">
+                    <div class="input-group">
+                        <img src="./image/user.svg" alt="">
+                        <input type="text" id="name" required>
+                        <label for="name">User Name</label>
+                    </div>
+                    <div class="input-group">
+                        <img src="./image/password.svg" alt="">
+                        <input type="password" id="password" required>
+                        <label for="password">Password</label>
+                    </div>
+                    <button>Log in</button>
+                </form>
+            </div>
+            <div class="header-modal-side-bar" id="menubar">
+                <button class="close" id="menuclose">+</button>
+                <div class="header-modal-side-bar__sidebarText">
+                    <h2>Home</h2>
+                    <h2>Products</h2>
+                    <h2>Category</h2>
+                    <h2>About us</h2>
+                    <h2>Contact</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero">
+                <h2>Exclusive Deals of Furniture Collection</h2>
+                <p>Explore different categories. Find the best deals.</p>
+                <button>Shop Now</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="category">
+                <h2>Explore by Category</h2>
+                <div class="category-wrapp">
+                    <div class="category-wrapp__search">
+                        <div class="input">
+                            <img src="./image/Icon.svg" alt="">
+                            <input type="text" placeholder="Search">
+                        </div>
+                        <ul>
+                            <li>
+                                <p>Bedroom</p>
+                            </li>
+                            <li>
+                                <p>Dinning Room</p>
+                            </li>
+                            <li>
+                                <p>Meeting Room</p>
+                            </li>
+                            <li>
+                                <p>Workspace</p>
+                            </li>
+                            <li>
+                                <p>Living Room</p>
+                            </li>
+                            <li>
+                                <p>Kitchen</p>
+                            </li>
+                            <li>
+                                <p>Living Space</p>
+                            </li>
+                            <li>
+                                <p>Living Space</p>
+                            </li>
+                            <li>
+                                <p>Living Space</p>
+                            </li>
+                            <li>
+                                <p>Living Space</p>
+                            </li>
+                            <li>
+                                <p>Living Space</p>
+                            </li>
+                            <li>
+                                <p>Living Space</p>
+                            </li>
+                            <li>
+                                <p>Living Space</p>
+                            </li>
+                            <li>
+                                <p>Living Space</p>
+                            </li>
+                            <li>
+                                <p>Living Space</p>
+                            </li>
+                        </ul>
+                        <div class="btn-group">
+                            <button class="categoryBtn">All Categories</button>
+                            <img src="./image/left.svg" alt="">
+                        </div>
+                    </div>
+                    <ul class="category-wrapp__items">
+                        <li class="img">
+                            <img src="./image/imageCatagory1.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./image/imageCatagory2.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./image/imageCatagory3.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./image/imageCatagory4.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./image/imageCatagory5.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./image/imageCatagory.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </main>
+    <script src="./scripts/utils.js"></script>
+    <script src="./scripts/script.js"></script>
 </body>
 
 </html>
